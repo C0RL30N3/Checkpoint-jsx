@@ -1,5 +1,8 @@
 .App {
+
   text-align: center;
+  background-color: plum;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .App-logo {
@@ -35,4 +38,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+.title 
+{
+color: red;
+
+}
+.imgs
+{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+.img1
+{
+  border-radius: 20px;
+}
+
+.img2
+{
+  border-radius: 20px;
 }
